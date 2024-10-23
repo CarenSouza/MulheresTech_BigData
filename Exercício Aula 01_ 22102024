@@ -1,0 +1,11 @@
+CREATE TABLE professores (
+    matricula INTEGER PRIMARY KEY,
+    nome_professor TEXT NOT NULL,
+    disciplina TEXT NOT NULL
+);
+
+INSERT INTO professores VALUES (1, 'Douglas Klem', 'Analise de Dados');
+INSERT INTO professores VALUES (2, 'Joyce Medeiros', 'Python');
+INSERT INTO professores VALUES (3, 'Carol Reis', 'SQL');
+
+SELECT * FROM professores;
